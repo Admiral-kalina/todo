@@ -1,0 +1,41 @@
+.header{
+   display: flex;
+   padding: 5px 25px;
+   border: 1px solid rgb(170, 166, 166);
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   justify-content:space-between;
+   
+   .block{
+     align-items: center;
+   }
+
+   .category{
+    flex: 0 0 20% ;
+    text-align-last: left;
+    p{
+      margin: 0 10px;
+      
+    }
+   }
+
+   .task{
+    flex: 0 0 60% ;
+    text-align-last: left;
+    p{
+      margin: 0 10px;
+      
+    }
+  }
+
+   .info{
+    display: flex;
+    text-align-last: left;
+    p{
+      margin: 0 10px;
+    }
+   }
+ 
+   
+}
+
