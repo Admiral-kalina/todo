@@ -36,7 +36,6 @@ function TodosItem({ todo }) {
     let text = inputRef.current.value;
     dispatch(changeTodoBodyAction({ id, text }));
   }
-  console.log(hiddenActive)
   function checkHiddenBlock() {
 
     const hiddenVisibility = hiddenBlock.current.style.visibility;
@@ -74,7 +73,7 @@ function TodosItem({ todo }) {
           disabled="disabled"
           className={module.text}
           ref={inputRef}
-          value={todo.body}
+          value={todo.bodyAV}
           onChange={(e) => onBodyChange(e, todo.id)}
         />
       </div>
